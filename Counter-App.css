@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Heebo:wght@300;400&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --bg-Color: #1877F2;
+    --white: #fff;
+    --green: rgb(29, 223, 29);
+    --red: orangered;
+    --grey: rgb(240, 240, 240);
+}
+
+html{
+    font-size: 62.5%;
+}
+
+body{
+    font-family: 'Heebo', sans-serif;
+}
+
+.container{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.counter-div{
+    background-color: var(--bg-Color);
+    width: 50vw;
+    padding: 1rem 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: var(--white);
+    flex-direction: column;
+    border-radius: 0.5rem;
+}
+
+.counter-div > .count{
+    margin-bottom: 1.5rem;
+}
+
+hr{
+    width: 95%;
+    margin-bottom: 1.5rem;
+}
+
+.counter-title{
+    font-size: 3rem;
+}
+
+.counter-div .count{
+    font-size: 3rem;
+    font-weight: 500;
+}
+
+button{
+    padding: 0.7rem 1.5rem;
+    background: transparent;
+    border: none;
+    font-family: 'Heebo', sans-serif;
+    font-size: 1.6rem;
+    border-radius: 0.3rem;
+    margin: 1rem 0.7rem;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.sub-btn{
+    color: var(--white);
+    background-color: var(--red);
+}
+
+.reset-btn{
+    background-color: var(--white);
+}
+
+.add-btn{
+    color: var(--white);
+    background-color: var(--green);
+}
